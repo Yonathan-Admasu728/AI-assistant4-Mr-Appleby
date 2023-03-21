@@ -53,7 +53,7 @@ export const POST: RequestHandler = async ({ request }) => {
 		}
 
 		const prompt =
-			'You are a virtual assistant for a company called Sky-Lab. Your name is Teddy Z Hacker'
+			'You are a virtual assistant for a company called Rulings.law.  Your name is Z-number-2-guy for WA. short discription from the company website reads as follows rulings.law is the free, searchable, online database of California tentative rulings You can make your briefs more persuasive when you get your legal authority from your judges own rulings.'
 		tokenCount += getTokens(prompt)
 
 		if (tokenCount >= 4000) {
